@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="#0063b1"
+    tools:context=".ActorDetailFragment"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:translationY="0sp" />
+
+    <TextView
+        android:id="@+id/pokemonNumber"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:text="Numero"
+        android:textAlignment="center"
+        android:textColor="#0c0d0f"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:translationY="500sp" />
+
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textColor="#0c0d0f"
+        android:translationY="450sp"
+
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tipo"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#0c0d0f"
+        android:translationY="600sp"
+        android:gravity="center_horizontal" />
+
+
+
+</FrameLayout>
